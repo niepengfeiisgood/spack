@@ -37,7 +37,8 @@ or an environment variable
 
 .. code-block:: console
 
-   $ SPACK_COLOR=always spack | less -R
+   $ export SPACK_COLOR=always 
+   $ spack | less -R
 
 --------------------------
 Listing available packages
